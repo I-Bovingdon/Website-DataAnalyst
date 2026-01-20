@@ -184,18 +184,33 @@ body {
     pointer-events: none;
 }
 
-.hero-content h2 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    letter-spacing: 1px;
+.hero-content h2,
+.hero-vertical h2 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin-bottom: 1.2rem;
+    letter-spacing: 1.5px;
+    line-height: 1.1;
+    border: 3px solid #222;
+    border-radius: 12px;
+    padding: 0.2em 0.7em;
+    background: rgba(255,255,255,0.08);
+    display: inline-block;
+    box-shadow: 0 2px 8px #2222;
 }
 
-.hero-content .subtitle {
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-    font-weight: 300;
-    opacity: 0.9;
+.hero-content .subtitle,
+.hero-vertical .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2.2rem;
+    font-weight: 400;
+    opacity: 0.95;
+    border: 2px solid #222;
+    border-radius: 8px;
+    padding: 0.15em 0.6em;
+    background: rgba(255,255,255,0.08);
+    display: inline-block;
+    box-shadow: 0 1px 4px #2221;
 }
 
 .profile-photo {
@@ -236,18 +251,19 @@ body {
     letter-spacing: 1px;
 }
 .btn-primary.btn-connect {
-    background-color: #00ffc3;
+    background-color: #00cfa0;
     color: #fff;
     font-size: 1.1rem;
     font-weight: 700;
     border-width: 2.5px;
-    box-shadow: 0 4px 24px 0 #00ffc3cc, 0 0 0 3px #aed6f1;
-    filter: brightness(1.25) drop-shadow(0 0 12px #00ffc3cc);
+    border: 2.5px solid #1a3a32;
+    box-shadow: 0 4px 16px 0 #00cfa099, 0 0 0 3px #aed6f1;
+    filter: saturate(0.85) brightness(0.92);
     transition: filter 0.2s, box-shadow 0.2s;
 }
 .btn-primary.btn-connect:hover {
-    background-color: #00bfa3;
-    filter: brightness(1.35) drop-shadow(0 0 18px #00ffc3cc);
+    background-color: #009e7a;
+    filter: saturate(0.95) brightness(1.05);
 }
 .btn-cv {
     background-color: #a8001c;
