@@ -141,7 +141,7 @@ body {
 
 
 .hero {
-    background: linear-gradient(135deg, #2eaddb 0%, #7fd6f1 50%, #2ecc71 100%);
+    background: linear-gradient(135deg, #2ecc71 0%, #7fd6f1 50%, #2eaddb 100%);
     color: var(--white);
     padding: 6rem 0;
     position: relative;
