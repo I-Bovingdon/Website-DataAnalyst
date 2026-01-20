@@ -112,6 +112,11 @@ body {
     width: 100%;
 }
 
+.nav-links a.nav-small {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.7rem;
+}
+
 /* ==================== 
    HERO SECTION
    ==================== */
@@ -125,10 +130,14 @@ body {
     overflow: hidden;
 }
 .hero-flex {
+    display: none;
+}
+.hero-vertical {
     display: flex;
-    gap: 3rem;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 0.5rem;
 }
 .hero-left {
     flex: 1;
@@ -308,6 +317,16 @@ body {
     color: var(--dark-text);
 }
 
+.about-vertical {
+    width: 100%;
+    max-width: 600px;
+    margin: 1.5rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 /* ==================== 
    SECTION: SKILLS
    ==================== */
@@ -464,6 +483,9 @@ body {
     font-size: 1.15rem;
     padding: 0.85rem 2.2rem;
 }
+.contact-centered {
+    padding-top: 2.5rem;
+}
 .contact-icon span {
     font-size: 1.25em;
     margin-right: 0.5em;
@@ -544,6 +566,10 @@ body {
 
     .timeline-item::before {
         left: -30px;
+    }
+
+    .about-vertical {
+        max-width: 98vw;
     }
 }
 
