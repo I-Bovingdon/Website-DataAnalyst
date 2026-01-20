@@ -131,6 +131,7 @@ body {
     font-weight: 700;
     margin-bottom: 1rem;
     letter-spacing: 1px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .hero-content .subtitle {
@@ -138,6 +139,7 @@ body {
     margin-bottom: 2rem;
     font-weight: 300;
     opacity: 0.9;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
 }
 
 .profile-photo {
@@ -202,6 +204,18 @@ body {
 
 .btn-secondary i {
     font-size: 1rem;
+}
+
+.btn-cv {
+    background-color: #8B3A3A;
+    color: var(--white);
+    border: 2px solid #8B3A3A;
+}
+
+.btn-cv:hover {
+    background-color: #6B2A2A;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(139, 58, 58, 0.3);
 }
 
 /* ==================== 
@@ -450,7 +464,7 @@ body {
    ==================== */
 
 .footer {
-    background-color: var(--primary-color);
+    background-color: #1f5a7a;
     color: var(--white);
     text-align: center;
     padding: 2rem 0;
