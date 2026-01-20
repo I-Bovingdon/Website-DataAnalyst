@@ -135,10 +135,10 @@ body {
 }
 
 .hero-content .subtitle {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
-    font-weight: 300;
-    opacity: 0.9;
+    font-weight: 500;
+    opacity: 0.95;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -207,15 +207,15 @@ body {
 }
 
 .btn-cv {
-    background-color: #8B3A3A;
+    background-color: #A82E2E;
     color: var(--white);
-    border: 2px solid #8B3A3A;
+    border: 2px solid #A82E2E;
 }
 
 .btn-cv:hover {
-    background-color: #6B2A2A;
+    background-color: #8B2020;
     transform: translateY(-2px);
-    box-shadow: 0 8px 16px rgba(139, 58, 58, 0.3);
+    box-shadow: 0 8px 16px rgba(168, 46, 46, 0.3);
 }
 
 /* ==================== 
@@ -428,7 +428,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(52, 152, 219, 0.75);
+    background-color: rgba(52, 152, 219, 0.85);
     z-index: 1;
 }
 
