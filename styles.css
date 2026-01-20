@@ -141,11 +141,12 @@ body {
 
 
 .hero {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
+    background: linear-gradient(135deg, #2eaddb 0%, #7fd6f1 50%, #2ecc71 100%);
     color: var(--white);
     padding: 6rem 0;
     position: relative;
     overflow: hidden;
+    filter: saturate(1.25);
 }
 .hero-flex {
     display: none;
