@@ -336,6 +336,17 @@ body {
     align-items: center;
     text-align: center;
 }
+.about-box {
+    background: rgba(30, 34, 40, 0.55);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    margin-top: 1.2rem;
+    box-shadow: 0 2px 12px rgba(44,62,80,0.10);
+}
+.about-box p {
+    color: #fff;
+    margin-bottom: 0;
+}
 
 /* ==================== 
    SECTION: SKILLS
@@ -348,6 +359,7 @@ body {
 
 .skills-grid {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 .skills-2x2 {
@@ -496,24 +508,14 @@ body {
 .contact-centered {
     padding-top: 2.5rem;
 }
-.contact-icon span {
+.contact-icon span, .contact-icon.github span svg {
+    color: #111 !important;
+    fill: #111 !important;
+    stroke: #111 !important;
     font-size: 1.25em;
     margin-right: 0.5em;
     vertical-align: middle;
-    color: var(--white);
-    filter: grayscale(1) brightness(0.7);
-}
-.contact-icon.github span {
-    font-size: 1.25em;
-    margin-right: 0.5em;
-    vertical-align: middle;
-    color: var(--white);
     filter: none;
-}
-.contact-icon.github span svg {
-    color: #222;
-    fill: #222;
-    stroke: #222;
 }
 
 /* ==================== 
