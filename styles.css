@@ -207,7 +207,7 @@ body {
 
 
 .btn-primary {
-    background-color: var(--accent-color);
+    background-color: #1de9b6;
     color: var(--white);
     font-size: 1.05rem;
     padding: 0.7rem 2rem;
@@ -221,9 +221,10 @@ body {
     font-weight: 700;
     border-width: 2.5px;
     box-shadow: 0 4px 12px rgba(46,204,113,0.18), 0 0 0 3px #aed6f1;
+    background-color: #1de9b6;
 }
 .btn-primary:hover {
-    background-color: #27ae60;
+    background-color: #00bfa3;
     transform: scale(1.04) translateY(-2px);
     box-shadow: 0 8px 16px rgba(46, 204, 113, 0.22);
     border-color: #2ecc71;
