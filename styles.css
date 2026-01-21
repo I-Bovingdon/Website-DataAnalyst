@@ -512,7 +512,11 @@ body {
 
 @media (max-width: 768px) {
     .nav-links {
-        gap: 1.5rem;
+        gap: 1rem;
+    }
+
+    .nav-links a {
+        font-size: 0.85rem;
     }
 
     .hero-content h2 {
@@ -574,8 +578,11 @@ body {
 
 @media (max-width: 480px) {
     .nav-links {
-        gap: 1rem;
-        font-size: 0.85rem;
+        gap: 0.6rem;
+    }
+
+    .nav-links a {
+        font-size: 0.75rem;
     }
 
     .hero-content h2 {
@@ -589,4 +596,5 @@ body {
     .section h3 {
         font-size: 1.5rem;
     }
+
 }
